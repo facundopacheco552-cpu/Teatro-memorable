@@ -20,8 +20,8 @@ class Obra
         ///gets
         getIdObra(return _idObra);
         const char* getNombre(){return _nombre;} //string
-        const char* getDirector(){return _director;}
-        getClasificacion(return _clasifacion);
+        const char* getAutor(){return _autor;}
+        getPuntuacion(return _puntuacion);
         Fecha getFecha();
 
     protected:
@@ -29,12 +29,12 @@ class Obra
     private:
     int  _idObra;
     char _nombre [50];
-    char _director[50];
-    char _director[50];
-    char _genero[30];
-    int _clasificacion; //deberia usar enumeracion
-    Fecha fechaEstreno;
-    int _duracion;
+    char _autor[50];
+    int _genero;
+    int _cantidadActors;
+    Fecha fechaPublicacion;
+    float _costoEstimado;
+    int  _puntuacion;
 };
 
 #endif // Obra_H

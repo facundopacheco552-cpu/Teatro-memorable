@@ -8,21 +8,26 @@ class Obra
         virtual ~Obra();
 
         ///sets
-        setIdObra(int );
-        setNombre(const char *valor){strcpy( _nombre,valor);}//convierte un string en para poner dentro del
-        setGenero(const char *valor){strcopy(_genero, valor);}
-        setAutor(const char *valor){strcopy(_autor, valor);}
-        setPuntuacion(int );
-        setGenero(int );
-
-
+        void setIdObra(int );
+        void setNombre(const char *valor){strcpy( _nombre,valor);}//convierte un string en para poner dentro del
+        void setGenero(const char *valor){strcopy(_genero, valor);}
+        void setAutor(const char *valor){strcopy(_autor, valor);}
+        void setPuntuacion(int );
+        void setGenero(int );
+        void setFecha(Fecha fecha);
+        void setCosto(float );
+        void setPuntuacion(int );
 
         ///gets
-        getIdObra(return _idObra);
+        int getIdObra(return _idObra);
         const char* getNombre(){return _nombre;} //string
         const char* getAutor(){return _autor;}
-        getPuntuacion(return _puntuacion);
+        int getGenero (return _genero);
+        int getCantActores(return _cantidadActores);
+        int getPuntuacion(return _puntuacion);
         Fecha getFecha();
+        float getCosto(return _costoEstimado);
+        int  getPuntuacion(return _puntuacion);
 
     protected:
 
@@ -31,7 +36,7 @@ class Obra
     char _nombre [50];
     char _autor[50];
     int _genero;
-    int _cantidadActors;
+    int _cantidadActores;
     Fecha fechaPublicacion;
     float _costoEstimado;
     int  _puntuacion;

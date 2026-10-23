@@ -13,4 +13,10 @@ sucursal::~sucursal()
     //dtor
 }
 
+void Teatro::setIdTeatro(int idTeatro){
+    _idTeatro=teatro;
+}
 
+void Teatro::setIdTeatro(int idTeatro){
+    _idTeatro=teatro;
+}

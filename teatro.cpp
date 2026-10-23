@@ -1,5 +1,5 @@
 #include <iostream>
-#include "sucursal.h"
+#include "teatro.h"
 using namespace std;
 
 
@@ -12,3 +12,5 @@ sucursal::~sucursal()
 {
     //dtor
 }
+
+

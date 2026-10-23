@@ -32,7 +32,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Fecha.cpp" />
+		<Unit filename="Fecha.h" />
+		<Unit filename="Obra.cpp" />
+		<Unit filename="Obra.h" />
+		<Unit filename="artista.cpp" />
+		<Unit filename="artista.h" />
+		<Unit filename="horario.cpp" />
+		<Unit filename="horario.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="teatro.cpp" />
+		<Unit filename="teatro.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

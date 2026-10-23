@@ -11,9 +11,9 @@ class Obra
         setIdObra(int );
         setNombre(const char *valor){strcpy( _nombre,valor);}//convierte un string en para poner dentro del
         setGenero(const char *valor){strcopy(_genero, valor);}
-        setDirector(const char *valor){strcopy(director, valor);}
-        setClasificaion(int );
-        setDuracion(int );
+        setAutor(const char *valor){strcopy(_autor, valor);}
+        setPuntuacion(int );
+        setGenero(int );
 
 
 

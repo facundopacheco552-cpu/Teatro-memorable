@@ -2,30 +2,33 @@
 #include <iostream>
 #include <cstring>
 
-class Surcusal
+class Teatro
 {
     public:
-        Surcusal();
-        ~Surcusal();
+        Teatro();
+        ~Teatro();
 
         ///sets
-        setSurcusal(int);
+        setIdTeatro(int);
         setNombre(const char *valor){strcpy(_nombre,valor);}
+        setDirecion(const char *valor){strcopy(_direcion, valor);}
         setTelefono(const char *valor){strcopy(_telefono, valor);}
-
+        setLink(const char *valor){strcopy(_link, valor);}
+        setCandyBar(bool );
+        setHoraApertura(horaApertura);
+        setHoraCierre(horaCierre);
          const char* getNombre(){return nombre;} //string
 
+
     private:
-        int  _idSurcusal;
-        char _nombre[30];
+        int  _idTeatro;
+        char _nombre[20];
+        char _direcion[100];
         char _telefono[20];
         char _link[100];
-
         bool _candyBar;
-        int _cantSalas;
-        float _precioTicket;
         Horario horaApertura;
         Horario horaCierre;
 };
 
-#endif // Surcusal_H
+#endif // Teatro_H

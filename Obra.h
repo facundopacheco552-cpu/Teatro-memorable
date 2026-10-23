@@ -1,14 +1,14 @@
 #pragma once
 
 
-class Pelicula
+class Obra
 {
     public:
-        Pelicula();
-        virtual ~Pelicula();
+        Obra();
+        virtual ~Obra();
 
         ///sets
-        setIdPelicula(int );
+        setIdObra(int );
         setNombre(const char *valor){strcpy( _nombre,valor);}//convierte un string en para poner dentro del
         setGenero(const char *valor){strcopy(_genero, valor);}
         setDirector(const char *valor){strcopy(director, valor);}
@@ -18,7 +18,7 @@ class Pelicula
 
 
         ///gets
-        getIdPelicula(return _idPelicula);
+        getIdObra(return _idObra);
         const char* getNombre(){return _nombre;} //string
         const char* getDirector(){return _director;}
         getClasificacion(return _clasifacion);
@@ -27,7 +27,7 @@ class Pelicula
     protected:
 
     private:
-    int  _idPelicula;
+    int  _idObra;
     char _nombre [50];
     char _director[50];
     char _director[50];
@@ -37,4 +37,4 @@ class Pelicula
     int _duracion;
 };
 
-#endif // Pelicula_H
+#endif // Obra_H

@@ -1,5 +1,5 @@
 #include <iostream>
-#include "sucursal.h"
+#include "teatro.h"
 using namespace std;
 
 
@@ -11,4 +11,12 @@ sucursal::sucursal()
 sucursal::~sucursal()
 {
     //dtor
+}
+
+void Teatro::setIdTeatro(int idTeatro){
+    _idTeatro=teatro;
+}
+
+void Teatro::setIdTeatro(int idTeatro){
+    _idTeatro=teatro;
 }

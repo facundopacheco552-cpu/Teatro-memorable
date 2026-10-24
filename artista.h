@@ -3,17 +3,6 @@
 #include <cstring>
 #include "Fecha.h"
 
-<<<<<<< Updated upstream
-#pragma once
-
-class Artista{
-  private:
-
-  public:
-
- //test
-}
-=======
 class Artista{
     private:
         int _idArtista;
@@ -42,16 +31,15 @@ class Artista{
         //SETTERS
         void setEstado(bool estado);
         void setIdArtista(int idArtista);
-        void setEspecialidad(char* especialidad);
+        void setEspecialidad(const char* especialidad);
         void setDni(int dni);
-        void setNombre(char* nombre);
-        void setApellido(char* apellido);
-        void setTelefono(char* telefono);
-        void setEmail(char* email);
+        void setNombre(const char* nombre);
+        void setApellido(const char* apellido);
+        void setTelefono(const char* telefono);
+        void setEmail(const char* email);
         void setFechaNacimiento(Fecha fechaNacimiento);
+
+        //METODOS
         void cargarArtista();
         void mostrarArtista();
 };
-
-#endif
->>>>>>> Stashed changes

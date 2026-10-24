@@ -42,4 +42,3 @@ class Obra
     int  _puntuacion;
 };
 
-#endif // Obra_H
